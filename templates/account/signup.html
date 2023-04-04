@@ -1,0 +1,32 @@
+{% extends "account/base.html" %}
+
+{% load i18n %}
+
+{% block head_title %}{% trans "Signup" %}{% endblock %}
+
+{% block content %}
+<br>
+<br>
+<br>
+<div class="container text-center">
+  <div class="row">
+    <div class="col-8 col-md-12">
+
+<h1>{% trans "Sign Up" %}</h1>
+<br>
+<br>
+<h5 style="color:darkblue; font-family: Arial, Helvetica, sans-serif;">Já possui um conta? Então por favor
+<a href="{{ login_url }}">ENTRE</a></h5>
+<br>
+<br>
+<h5 style="color: crimson; font-family: Arial, Helvetica, sans-serif;">Para cadastrar uma nova conta 
+  e ter acesso ao sistema, favor solicitar via e-mail ao Administrador (marcio.sa1977@gmail.com)</h5>
+<br>
+<br>
+<h5 style="color:indigo; font-family: Arial, Helvetica, sans-serif;">Obrigatório informar os seguintes dados:
+Nome completo / e-mail / CPF / Endereço completo / Data de Nascimento</h5>
+
+</div>
+</div>
+</div>
+{% endblock %}
